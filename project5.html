@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background Color</title>
+    <script src="project5.js" defer></script>
+    <style>
+        h2{
+            background-color: cyan;
+            color: darkred;
+        }
+        .footer { 
+    margin-left: 45%;
+    position: absolute; 
+    bottom: 0; 
+    left:0; 
+    z-index: 10;
+}
+    </style>
+</head>
+<body>
+    <h2><center>background color change using button</center></h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="date">date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    
+    <center><button onclick="changeBackgroundColor()">Change Color</button></center>
+    
+    
+    
+    
+    
+    <div class ="footer">Karthikeyan Copyrights &copy;All rights resevered</div>
+</body>
+</html>
